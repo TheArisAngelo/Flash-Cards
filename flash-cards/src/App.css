@@ -1,0 +1,54 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.flashcard {
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.flashcard-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 20px;
+  background: #ddd;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: #4caf50;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.controls button:hover {
+  background-color: #45a049;
+}
